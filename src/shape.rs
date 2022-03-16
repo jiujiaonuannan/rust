@@ -17,7 +17,7 @@ impl Animal for Dog {
     }
 }
 
-fn name(animal: impl Animal) -> &'static str {
+fn name<T: Animal>(animal: T) -> &'static str {
     animal.name()
 }
 
