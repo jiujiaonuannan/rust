@@ -23,5 +23,5 @@ fn name(animal: impl Animal) -> &'static str {
 
 fn main() {
     let cat = Cat;
-    println!("cat: {}", name(cat));
+    println!("cat:{}", name(cat));
 }
