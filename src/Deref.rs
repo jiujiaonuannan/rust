@@ -32,3 +32,12 @@ fn main() {
     buf.sort();
     println!("buf: {:?}", buf);
 }
+
+// TODO
+// pub trait From<T> {
+// 	fn from(T) -> Self;
+// }
+
+// pub trait Into<T> {
+// 	fn into(self) -> T;
+// }
