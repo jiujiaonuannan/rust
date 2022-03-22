@@ -18,7 +18,7 @@ impl AsRef<str> for Language {
 }
 
 fn print_ref(v: impl AsRef<str>) {
-    println!("{}", v.as_ref());a
+    println!("{}", v.as_ref());
 }
 
 fn main() {
